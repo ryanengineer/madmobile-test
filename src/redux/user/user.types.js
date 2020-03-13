@@ -1,0 +1,5 @@
+export const UserActionTypes = {
+  GET_RANDOM_USERS: 'GET_RANDOM_USERS',
+  UPDATE_USERS: 'UPDATE_USERS',
+  GET_MORE_USERS: 'GET_MORE_USERS'
+};

@@ -1,0 +1,18 @@
+.grid {
+  position: relative;
+  svg {
+    color: black;
+  }
+
+  & .sort-icon-text {
+    margin-right: 10px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: relative;
+}
